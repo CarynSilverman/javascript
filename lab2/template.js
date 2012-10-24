@@ -1,4 +1,6 @@
-$(funchtion(){
+$(function(){
+
+
 	var z = prompt('enter a number?');
 	z = parseInt(z); /* turs z into a number */
 	var y = square(z); /*  this pass the input of z into the x of function square (x) then that function executs*/

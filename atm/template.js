@@ -13,12 +13,12 @@ $(function(){
 			if(response =='d')
 			{
 				balance = balance + amount;
-				console.log('You just deposited $' + amount + '.00' and your balance + '.00');
+				//console.log('You just deposited $' + amount + '.00' + and your balance + '.00');
 			}
 			else
 			{
 				balance = balance - amount;
-				console.log('You just withdrew $' + amount + '.00' and your balance + '.00');
+				//console.log('You just withdrew $' + amount + '.00' + and your balance + '.00');
 			}
 		
 

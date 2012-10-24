@@ -1,0 +1,52 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Bank of GA</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="template.css">
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="jquery-1.8.2.js"></script>
+		<script src="template.js"></script>
+		
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+	</head>
+	<body>
+		<div id="container">
+			<header>
+				<h1>Bank of GA</h1>
+			</header>
+			<div id="checking">
+				<div id="bal" class="box">
+					<h2>Checking</h2>
+						$<span id="cash-checking">1000</span>.00 <!-- this allow to target just this number -->
+					</div>
+				</div>
+
+				<div id="inputs" class="box">
+					<input type="text"  id="amount-checking">
+					<input type="button" value="deposit" id="deposit-checking">
+					<input type="button" value="withdrawl" id="withdrawl-checking">
+				</div>
+
+			</div><!-- checking -->
+
+			<div id="saving">
+				<div id="bal" class="box">
+					<h2>Savings</h2>
+						$<span id="cash-saving">1000</span>.00
+					</div>
+				</div>
+
+				<div id="inputs" class="box">
+					<input type="text"  id="amount-saving">
+					<input type="button" value="deposit" id="deposit-saving">
+					<input type="button" value="withdrawl" id="withdrawl-saving">
+				</div>
+			</div><!-- saving -->
+		</div> <!-- continer --> 
+	</body><!-- body -->
+</html>

@@ -1,4 +1,4 @@
-$(funchtion(){
+$(function(){
 	
 
 });

@@ -1,0 +1,63 @@
+animals = []
+
+color = []
+
+	var select = prompt('Would you like to delete an [animal]? (y) or (n)');
+
+	while(select != 'n')
+	{
+		if(select = 'a')
+		var anwser = prompt('which one?');
+		var index = animal.indexOf(anwser);
+		animal.splice(index, 1);
+	}
+
+
+
+
+
+people = []
+
+(a)nimal, (c) or (p) or (q) ?
+
+	(c) how many colors? 3x  (two loops- while and for loop) enter loop: enter color. add to colors array.
+	prompt again color
+	prompt again color
+
+		color > blue >>colors array
+		color > gree >> colors array
+		color> yello >> colors array
+
+			loops back to top. 
+			(a)nimal, (c) or (p) or (q) ?
+
+				(a)
+				how many? 2x
+				animal > bear >> animal array
+				animal > lion >> animal array
+
+_____
+
+new loop
+do you want to delete something? y or n 
+y: from what array (a) (c) (p)
+
+	(c) show all colors they typed in 
+	blue, green, yellow 
+
+		> remove green
+
+		run loop again 
+
+index of and slice
+
+___
+
+
+here are your arrays: result 
+
+animals[]
+
+colors []
+
+people []
